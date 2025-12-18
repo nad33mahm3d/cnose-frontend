@@ -1,7 +1,7 @@
 import axios from 'axios'
 import type { Vehicle, DeviceSnapshot, Alert } from '../types'
 
-const API_BASE_URL = '' // Use relative URLs to go through proxy
+const API_BASE_URL = 'api' // Use relative URLs to go through proxy
 
 const api = axios.create({
   baseURL: API_BASE_URL,
